@@ -18,6 +18,9 @@ const userSchema = new Schema({
   },
   phone: {
       type: String
+  },
+  gmail: {
+    type: String
   }
 },{
   timestamps: true,
