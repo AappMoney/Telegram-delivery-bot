@@ -21,7 +21,11 @@ const userSchema = new Schema({
   },
   gmail: {
     type: String
+  },
+  smsCode: {
+    type : Boolean
   }
+
 },{
   timestamps: true,
   versionKey: false,
